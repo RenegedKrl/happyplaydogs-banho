@@ -1,0 +1,60 @@
+.testimonial-card {
+  background: var(--color-surface);
+  border-radius: var(--radius-lg);
+  padding: 2rem;
+  box-shadow: var(--shadow-sm);
+  transition: box-shadow 0.3s;
+}
+
+.google-card {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+}
+
+.testimonial-card:hover {
+  box-shadow: var(--shadow-md);
+}
+
+.testimonial-header {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+
+.google-avatar {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.google-author h4 {
+  margin: 0;
+  font-size: 1rem;
+  color: #202124;
+}
+
+.google-date {
+  font-size: 0.75rem;
+  color: #70757a;
+}
+
+.google-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.stars {
+  display: flex;
+  gap: 0.15rem;
+  margin-bottom: 1rem;
+}
+
+.testimonial-text {
+  font-size: 0.95rem;
+  color: #3c4043;
+  line-height: 1.5;
+}
