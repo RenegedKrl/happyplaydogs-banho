@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import './Navbar.css';
 import WhatsAppIcon from './WhatsAppIcon';
+import logoImg from '../assets/logo/LOGO-1.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       <div className="container">
         <div className="navbar-content">
           <div className="logo-container">
-            <img src="/src/assets/logo/LOGO-1.png" alt="Happy Play Dogs Logo" className="logo-img" />
+            <img src={logoImg} alt="Happy Play Dogs Logo" className="logo-img" />
           </div>
 
           <button className="mobile-menu-btn" onClick={toggleMenu} aria-label="Toggle menu">

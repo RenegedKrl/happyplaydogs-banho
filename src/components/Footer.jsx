@@ -1,12 +1,13 @@
 import React from 'react';
 import WhatsAppIcon from './WhatsAppIcon';
+import logoImg from '../assets/logo/LOGO-1.png';
 
 const Footer = () => {
   return (
     <footer style={{ background: 'var(--color-text)', color: 'white', padding: '3rem 0', textAlign: 'center' }}>
       <div className="container">
         <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginBottom: '1rem' }}>
-          <img src="/src/assets/logo/LOGO-1.png" alt="Happy Play Dogs" style={{ height: '60px' }} />
+          <img src={logoImg} alt="Happy Play Dogs" style={{ height: '60px' }} />
         </div>
         <p style={{ color: '#9CA3AF', marginBottom: '1.5rem' }}>
           O melhor Banho e Tosa para o seu melhor amigo.

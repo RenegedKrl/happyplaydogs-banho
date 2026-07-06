@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
 import './BeforeAfter.css';
+import beforeImg from '../assets/gallery/before.png';
+import afterImg from '../assets/gallery/after.png';
 
 const BeforeAfter = () => {
   const [sliderPosition, setSliderPosition] = useState(50);
@@ -14,7 +16,7 @@ const BeforeAfter = () => {
         
         <div className="before-after-container">
           <div className="img-background">
-            <img src="/src/assets/gallery/before.png" alt="Antes do Banho" />
+            <img src={beforeImg} alt="Antes do Banho" />
             <div className="label-badge label-before">Antes</div>
           </div>
           
@@ -22,7 +24,7 @@ const BeforeAfter = () => {
             className="img-foreground" 
             style={{ clipPath: `inset(0 0 0 ${sliderPosition}%)` }}
           >
-            <img src="/src/assets/gallery/after.png" alt="Depois do Banho" />
+            <img src={afterImg} alt="Depois do Banho" />
             <div className="label-badge label-after">Depois</div>
           </div>
           

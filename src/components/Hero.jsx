@@ -2,6 +2,7 @@ import React from 'react';
 import { ShieldCheck, Sparkles, Clock } from 'lucide-react';
 import './Hero.css';
 import WhatsAppIcon from './WhatsAppIcon';
+import heroImg from '../assets/hero/hero.png';
 
 const Hero = () => {
   return (
@@ -42,7 +43,7 @@ const Hero = () => {
           </div>
         </div>
         <div className="hero-image-wrapper animate-fade-in" style={{ animationDelay: '0.2s' }}>
-          <img src="/src/assets/hero/hero.png" alt="Cachorro feliz após o banho" className="hero-image" />
+          <img src={heroImg} alt="Cachorro feliz após o banho" className="hero-image" />
           <div className="floating-card glass">
             <span className="text-primary font-bold">4.9/5</span>
             <span className="text-sm">⭐ +500 Clientes Felizes</span>

@@ -1,15 +1,18 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import './Gallery.css';
+import gallery1 from '../assets/gallery/gallery_1.png';
+import gallery2 from '../assets/gallery/gallery_2.png';
+import heroImg from '../assets/hero/hero.png';
 
 const Gallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const images = [
-    { src: '/src/assets/gallery/gallery_1.png', alt: 'Estrutura Moderna' },
-    { src: '/src/assets/gallery/gallery_2.png', alt: 'Cachorro Feliz no Banho' },
-    { src: '/src/assets/hero/hero.png', alt: 'Estética Pet' },
-    { src: '/src/assets/gallery/gallery_1.png', alt: 'Banheira Inox' }
+    { src: gallery1, alt: 'Estrutura Moderna' },
+    { src: gallery2, alt: 'Cachorro Feliz no Banho' },
+    { src: heroImg, alt: 'Estética Pet' },
+    { src: gallery1, alt: 'Banheira Inox' }
   ];
 
   const openModal = (index) => {
