@@ -11,13 +11,16 @@
 }
 
 .services-grid {
-  display: grid;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
   gap: 2rem;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   margin-bottom: 4rem;
 }
 
 .service-card {
+  flex: 1 1 300px;
+  max-width: 350px;
   padding: 2rem;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-md);
@@ -98,6 +101,11 @@
 
 @media (max-width: 768px) {
   .services-grid {
-    grid-template-columns: 1fr;
+    flex-direction: column;
+    align-items: center;
+  }
+  .service-card {
+    max-width: 100%;
+    width: 100%;
   }
 }
