@@ -2,7 +2,7 @@ import React from 'react';
 import { ShieldCheck, Sparkles, Clock } from 'lucide-react';
 import './Hero.css';
 import WhatsAppIcon from './WhatsAppIcon';
-import heroImg from '../assets/hero/hero.png';
+import heroImg from '../assets/hero/hero.jpg';
 
 const Hero = () => {
   return (
@@ -16,13 +16,13 @@ const Hero = () => {
       <div className="container grid md:grid-cols-2 gap-8 items-center h-full">
         <div className="hero-content animate-fade-in">
           <div className="badge text-primary bg-primary-light">
-            <Sparkles size={16} /> Especialistas em Estética Pet
+            <Sparkles size={16} /> Espaço Completo para Pets
           </div>
           <h1 className="hero-title">
-            O melhor <span className="text-primary">Banho e Tosa</span> para o seu melhor amigo.
+            Tudo o que o seu pet precisa em um <span className="text-primary">único lugar</span>.
           </h1>
           <p className="hero-subtitle">
-            Ambiente higienizado, profissionais qualificados e muito amor para deixar seu pet limpo, cheiroso e feliz. Agende agora e surpreenda-se!
+            A Happy Play Dogs reúne cuidado, saúde e diversão: loja, estética, creche, hotel e clínica veterinária para o bem-estar do seu melhor amigo.
           </p>
           <div className="hero-actions flex gap-4">
             <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20o%20meu%20pet." target="_blank" rel="noreferrer" className="btn btn-primary">

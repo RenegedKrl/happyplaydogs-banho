@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import TopBanner from './components/TopBanner';
 import MobileBottomBar from './components/MobileBottomBar';
 import Hero from './components/Hero';
+import About from './components/About';
 import Evaluation from './components/Evaluation';
 import Differentials from './components/Differentials';
 import Gallery from './components/Gallery';
@@ -24,6 +25,7 @@ function App() {
       </header>
       <main>
         <Hero />
+        <About />
         <Evaluation />
         <Differentials />
         <BeforeAfter />

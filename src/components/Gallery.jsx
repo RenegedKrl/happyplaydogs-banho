@@ -1,18 +1,23 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import './Gallery.css';
-import gallery1 from '../assets/gallery/gallery_1.png';
-import gallery2 from '../assets/gallery/gallery_2.png';
-import heroImg from '../assets/hero/hero.png';
+import gallery1 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.18 (1).jpeg';
+import gallery2 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.18.jpeg';
+import gallery3 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.19.jpeg';
+import gallery4 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.20.jpeg';
+import gallery5 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.22.jpeg';
+import gallery6 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.23.jpeg';
 
 const Gallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
 
   const images = [
-    { src: gallery1, alt: 'Estrutura Moderna' },
-    { src: gallery2, alt: 'Cachorro Feliz no Banho' },
-    { src: heroImg, alt: 'Estética Pet' },
-    { src: gallery1, alt: 'Banheira Inox' }
+    { src: gallery1, alt: 'Loja Pet' },
+    { src: gallery2, alt: 'Centro Estético' },
+    { src: gallery3, alt: 'Área da Creche' },
+    { src: gallery4, alt: 'Espaço Hotel' },
+    { src: gallery5, alt: 'Área Veterinária' },
+    { src: gallery6, alt: 'Estrutura Premium' }
   ];
 
   const openModal = (index) => {

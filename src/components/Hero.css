@@ -1,6 +1,6 @@
 .hero {
-  min-height: 100vh;
-  padding-top: 6rem;
+  min-height: 90vh;
+  padding-top: 8rem;
   padding-bottom: 4rem;
   display: flex;
   align-items: center;
@@ -96,6 +96,11 @@
 }
 
 @media (max-width: 768px) {
+  .hero {
+    min-height: auto;
+    padding-top: 10rem;
+    padding-bottom: 2rem;
+  }
   .hero-title { font-size: 2.5rem; }
   .hero-actions { flex-direction: column; }
   .hero-actions .btn { width: 100%; }

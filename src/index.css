@@ -1,9 +1,10 @@
 :root {
-  --color-primary: #073f11; /* Dark Green from logo */
-  --color-primary-dark: #042a0b;
-  --color-primary-light: #e6f0e8;
-  --color-secondary: #f4e404; /* Yellow from logo */
-  --color-accent: #a36362; /* Reddish from logo */
+  --color-primary: #0a650a; /* Green */
+  --color-primary-dark: #074a07;
+  --color-primary-light: #e6f0e6;
+  --color-secondary: #ffc700; /* Yellow */
+  --color-accent: #c61919; /* Red */
+  --color-tertiary: #004aad; /* Blue */
   --color-bg: #FFFFFF;
   --color-surface: #F9FAFB;
   --color-text: #1F2937;
