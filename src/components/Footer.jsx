@@ -14,7 +14,7 @@ const Footer = () => {
         </p>
 
         <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', marginBottom: '2rem' }}>
-          <a href="https://wa.me/5511991249837" target="_blank" rel="noreferrer" style={{ color: 'white', transition: 'color 0.2s' }} onMouseOver={e => e.currentTarget.style.color='var(--color-primary)'} onMouseOut={e => e.currentTarget.style.color='white'} title="WhatsApp">
+          <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Estava%20no%20site%20da%20Happy%20Play%20Dogs%20e%20gostaria%20de%20tirar%20uma%20d%C3%BAvida." target="_blank" rel="noreferrer" style={{ color: 'white', transition: 'color 0.2s' }} onMouseOver={e => e.currentTarget.style.color='var(--color-primary)'} onMouseOut={e => e.currentTarget.style.color='white'} title="WhatsApp">
             <WhatsAppIcon size={32} />
           </a>
           <a href="https://www.instagram.com/happyplaydogs/" target="_blank" rel="noreferrer" style={{ color: 'white', transition: 'color 0.2s' }} onMouseOver={e => e.currentTarget.style.color='var(--color-primary)'} onMouseOut={e => e.currentTarget.style.color='white'} title="Instagram">

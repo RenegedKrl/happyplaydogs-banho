@@ -47,7 +47,7 @@ const Location = () => {
             </div>
           </div>
           
-          <a href="https://wa.me/5511991249837" target="_blank" rel="noreferrer" className="btn btn-primary w-full" style={{ marginTop: '2rem' }}>
+          <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio.%20Como%20fa%C3%A7o%20para%20chegar%20%C3%A0%20Happy%20Play%20Dogs%3F" target="_blank" rel="noreferrer" className="btn btn-primary w-full" style={{ marginTop: '2rem' }}>
             <WhatsAppIcon size={20} /> Falar no WhatsApp
           </a>
         </div>

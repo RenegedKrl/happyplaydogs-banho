@@ -37,7 +37,7 @@ const Evaluation = () => {
   return (
     <section id="evaluation" className="section bg-bg">
       <div className="container">
-        <h2 className="section-title">Avaliação & Serviços</h2>
+        <h2 className="section-title">SERVIÇOS</h2>
         <p className="section-subtitle">
           Oferecemos o cuidado perfeito para cada necessidade do seu pet. Escolha o serviço ideal!
         </p>

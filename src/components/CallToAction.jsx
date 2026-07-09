@@ -10,7 +10,7 @@ const CallToAction = () => {
           Nossa agenda enche rápido! Garanta hoje mesmo um horário exclusivo para o seu melhor amigo receber todo o cuidado, carinho e higiene que ele merece.
         </p>
         <a 
-          href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20o%20banho%20e%20tosa%20do%20meu%20pet." 
+          href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Quero%20ver%20meu%20pet%20ainda%20mais%20feliz%21%20Gostaria%20de%20agendar%20o%20Banho%20e%20Tosa." 
           target="_blank" 
           rel="noreferrer" 
           className="btn btn-primary"

@@ -30,13 +30,13 @@ const Navbar = () => {
             <li><a href="#faq" onClick={closeMenu}>FAQ</a></li>
             <li><a href="#location" onClick={closeMenu}>Contato</a></li>
             <li className="mobile-only">
-              <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20banho%20para%20meu%20pet." target="_blank" rel="noreferrer" className="btn btn-primary" style={{ display: 'flex', width: '100%', justifyContent: 'center', color: 'white' }}>
+              <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20o%20Banho%20e%20Tosa%20para%20meu%20pet." target="_blank" rel="noreferrer" className="btn btn-primary" style={{ display: 'flex', width: '100%', justifyContent: 'center', color: 'white' }}>
                 <WhatsAppIcon size={18} /> Agendar Banho
               </a>
             </li>
           </ul>
           
-          <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20banho%20para%20meu%20pet." target="_blank" rel="noreferrer" className="btn btn-primary nav-btn desktop-only">
+          <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Vim%20pelo%20site%20e%20gostaria%20de%20agendar%20o%20Banho%20e%20Tosa%20para%20meu%20pet." target="_blank" rel="noreferrer" className="btn btn-primary nav-btn desktop-only">
             <WhatsAppIcon size={18} /> Agendar Banho
           </a>
         </div>

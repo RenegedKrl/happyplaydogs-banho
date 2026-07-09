@@ -1,23 +1,42 @@
 import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight, X } from 'lucide-react';
 import './Gallery.css';
-import gallery1 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.18 (1).jpeg';
-import gallery2 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.18.jpeg';
-import gallery3 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.19.jpeg';
-import gallery4 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.20.jpeg';
-import gallery5 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.22.jpeg';
-import gallery6 from '../assets/gallery/WhatsApp Image 2026-07-06 at 14.45.23.jpeg';
+import gallery1 from '../assets/gallery/1.jpeg';
+import gallery2 from '../assets/gallery/2.jpeg';
+import gallery3 from '../assets/gallery/3.jpg';
+import gallery4 from '../assets/gallery/4.jpg';
+import gallery5 from '../assets/gallery/5.jpg';
+import gallery6 from '../assets/gallery/6.jpg';
+import gallery7 from '../assets/gallery/7.jpg';
+import gallery8 from '../assets/gallery/8.jpeg';
+import gallery9 from '../assets/gallery/9.jpg';
+import gallery10 from '../assets/gallery/10.jpeg';
+import gallery11 from '../assets/gallery/11.jpeg';
+import gallery12 from '../assets/gallery/12.jpg';
+import gallery13 from '../assets/gallery/13.jpeg';
+import gallery14 from '../assets/gallery/14.jpeg';
+import gallery15 from '../assets/gallery/15.jpg';
 
 const Gallery = () => {
   const [selectedIndex, setSelectedIndex] = useState(null);
+  const [showAll, setShowAll] = useState(false);
 
   const images = [
-    { src: gallery1, alt: 'Loja Pet' },
-    { src: gallery2, alt: 'Centro Estético' },
-    { src: gallery3, alt: 'Área da Creche' },
-    { src: gallery4, alt: 'Espaço Hotel' },
-    { src: gallery5, alt: 'Área Veterinária' },
-    { src: gallery6, alt: 'Estrutura Premium' }
+    { src: gallery1, alt: 'Foto 1' },
+    { src: gallery2, alt: 'Foto 2' },
+    { src: gallery3, alt: 'Foto 3' },
+    { src: gallery4, alt: 'Foto 4' },
+    { src: gallery5, alt: 'Foto 5' },
+    { src: gallery6, alt: 'Foto 6' },
+    { src: gallery7, alt: 'Foto 7' },
+    { src: gallery8, alt: 'Foto 8' },
+    { src: gallery9, alt: 'Foto 9' },
+    { src: gallery10, alt: 'Foto 10' },
+    { src: gallery11, alt: 'Foto 11' },
+    { src: gallery12, alt: 'Foto 12' },
+    { src: gallery13, alt: 'Foto 13' },
+    { src: gallery14, alt: 'Foto 14' },
+    { src: gallery15, alt: 'Foto 15' }
   ];
 
   const openModal = (index) => {
@@ -38,6 +57,18 @@ const Gallery = () => {
     setSelectedIndex((prev) => (prev === 0 ? images.length - 1 : prev - 1));
   };
 
+  const handleToggleShowAll = () => {
+    if (showAll) {
+      const gallerySection = document.getElementById('gallery');
+      if (gallerySection) {
+        gallerySection.scrollIntoView({ behavior: 'smooth' });
+      }
+    }
+    setShowAll(!showAll);
+  };
+
+  const visibleImages = showAll ? images : images.slice(0, 6);
+
   return (
     <section id="gallery" className="section bg-surface">
       <div className="container">
@@ -47,7 +78,7 @@ const Gallery = () => {
         </p>
         
         <div className="gallery-grid">
-          {images.map((image, idx) => (
+          {visibleImages.map((image, idx) => (
             <div key={idx} className="gallery-item" onClick={() => openModal(idx)} style={{ cursor: 'pointer' }}>
               <img src={image.src} alt={image.alt} loading="lazy" />
               <div className="gallery-overlay">
@@ -55,6 +86,15 @@ const Gallery = () => {
               </div>
             </div>
           ))}
+        </div>
+
+        <div style={{ textAlign: 'center', marginTop: '2rem' }}>
+          <button 
+            onClick={handleToggleShowAll} 
+            className="btn btn-primary"
+          >
+            {showAll ? 'Ver menos' : 'Ver mais'}
+          </button>
         </div>
       </div>
 

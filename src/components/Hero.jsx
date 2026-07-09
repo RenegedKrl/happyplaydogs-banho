@@ -2,7 +2,7 @@ import React from 'react';
 import { ShieldCheck, Sparkles, Clock } from 'lucide-react';
 import './Hero.css';
 import WhatsAppIcon from './WhatsAppIcon';
-import heroImg from '../assets/hero/hero.jpg';
+import heroImg from '../assets/hero/hero.jpeg';
 
 const Hero = () => {
   return (
@@ -15,17 +15,17 @@ const Hero = () => {
       </div>
       <div className="container grid md:grid-cols-2 gap-8 items-center h-full">
         <div className="hero-content animate-fade-in">
-          <div className="badge text-primary bg-primary-light">
-            <Sparkles size={16} /> Espaço Completo para Pets
+          <div className="badge text-accent" style={{ backgroundColor: '#ffecec' }}>
+            <Clock size={16} /> Últimos horários disponíveis!
           </div>
           <h1 className="hero-title">
-            Tudo o que o seu pet precisa em um <span className="text-primary">único lugar</span>.
+            Não deixe para depois o <span className="text-primary">Banho e Tosa</span> do seu pet.
           </h1>
           <p className="hero-subtitle">
-            A Happy Play Dogs reúne cuidado, saúde e diversão: loja, estética, creche, hotel e clínica veterinária para o bem-estar do seu melhor amigo.
+            Nossa agenda está esgotando rapidamente! Garanta agora mesmo um horário no nosso centro estético e dê ao seu melhor amigo o cuidado premium que ele merece.
           </p>
           <div className="hero-actions flex gap-4">
-            <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20o%20meu%20pet." target="_blank" rel="noreferrer" className="btn btn-primary">
+            <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Vi%20no%20site%20que%20a%20agenda%20est%C3%A1%20lotando%20e%20quero%20garantir%20o%20Banho%20e%20Tosa%20do%20meu%20pet%21" target="_blank" rel="noreferrer" className="btn btn-primary">
               <WhatsAppIcon size={20} /> Agendar Horário
             </a>
             <a href="#gallery" className="btn btn-outline">Ver Estrutura</a>

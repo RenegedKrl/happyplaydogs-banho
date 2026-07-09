@@ -25,15 +25,15 @@ function App() {
       </header>
       <main>
         <Hero />
-        <About />
         <Evaluation />
         <Differentials />
         <BeforeAfter />
         <Gallery />
         <CallToAction />
+        <Location />
+        <About />
         <Testimonials />
         <FAQ />
-        <Location />
       </main>
       <FloatingWhatsApp />
       <MobileBottomBar />
