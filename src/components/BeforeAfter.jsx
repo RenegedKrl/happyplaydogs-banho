@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './BeforeAfter.css';
-import beforeImg from '../assets/gallery/ANTES.jpeg';
-import afterImg from '../assets/gallery/DEPOIS.jpeg';
+import beforeImg from '../assets/gallery/antes 1.png';
+import afterImg from '../assets/gallery/depois 2.jpg';
 
 const BeforeAfter = () => {
   const [sliderPosition, setSliderPosition] = useState(50);
