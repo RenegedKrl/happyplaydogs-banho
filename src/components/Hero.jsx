@@ -15,14 +15,11 @@ const Hero = () => {
       </div>
       <div className="container grid md:grid-cols-2 gap-8 items-center h-full">
         <div className="hero-content animate-fade-in">
-          <div className="badge text-accent" style={{ backgroundColor: '#ffecec' }}>
-            <Clock size={16} /> Últimos horários disponíveis!
-          </div>
           <h1 className="hero-title">
-            Não deixe para depois o <span className="text-primary">Banho e Tosa</span> do seu pet.
+            <span className="text-primary">Banho e Tosa</span> com o padrão de cuidado Happy Play Dogs em Santana
           </h1>
           <p className="hero-subtitle">
-            Nossa agenda está esgotando rapidamente! Garanta agora mesmo um horário no nosso centro estético e dê ao seu melhor amigo o cuidado premium que ele merece.
+            Cuidamos da higiene profunda, do corte ideal e do bem-estar do seu pet com a excelência que só a Happy Play Dogs oferece. Agende agora o seu horário!
           </p>
           <div className="hero-actions flex gap-4">
             <a href="https://wa.me/5511991249837?text=Ol%C3%A1%21%20Vi%20no%20site%20que%20a%20agenda%20est%C3%A1%20lotando%20e%20quero%20garantir%20o%20Banho%20e%20Tosa%20do%20meu%20pet%21" target="_blank" rel="noreferrer" className="btn btn-primary">
