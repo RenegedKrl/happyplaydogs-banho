@@ -15,7 +15,7 @@ const Testimonials = () => {
       id: 2,
       name: "Carlos Mendes",
       date: "3 dias atrás",
-      text: "A tosa da Luna ficou perfeita. Dá para ver o carinho que eles têm pelos animais. O táxi dog me ajudou muito! Recomendo demais.",
+      text: "A tosa da Luna ficou perfeita. Dá para ver o carinho que eles têm pelos animais. Recomendo demais.",
       img: "https://ui-avatars.com/api/?name=Carlos+Mendes&background=f4e404&color=073f11"
     },
     {

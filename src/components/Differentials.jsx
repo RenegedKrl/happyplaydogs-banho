@@ -14,11 +14,6 @@ const Differentials = () => {
       desc: "Zero choque térmico. Controlamos a água para proporcionar o máximo de conforto."
     },
     {
-      icon: <Truck size={40} />,
-      title: "Táxi Dog",
-      desc: "Sem tempo? Nós buscamos e levamos seu pet com total segurança e comodidade."
-    },
-    {
       icon: <Video size={40} />,
       title: "Câmeras de Segurança",
       desc: "Acompanhe tudo. Seu pet não fica fora da sua vista um segundo sequer."

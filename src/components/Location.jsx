@@ -32,7 +32,7 @@ const Location = () => {
               </div>
               <div>
                 <h4>Horário de Funcionamento</h4>
-                <p>Segunda a Sexta: 08:00 - 18:00<br/>Sábado: 08:00 - 14:00</p>
+                <p>Segunda a Sexta: 09:00 - 18:00<br/>Sábado: 09:00 - 17:00</p>
               </div>
             </div>
             
